@@ -59,5 +59,6 @@ img {
     border-radius: 10px; /* Rounds the corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
     margin: 20px 0; /* Adds space around the image */
-    max-width: 100%; /* Ensures the image doesn't overflow its container */
+    max-width: 50%; /* Scales down the image to half the container width */
+    height: auto; /* Maintains the aspect ratio */
 }
