@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
+    text-align: center; /* Applies default centering for the body */
 }
 
 header, footer {
@@ -31,77 +31,30 @@ nav a {
 }
 
 main {
+    max-width: 900px;
+    margin: 0 auto;
     padding: 20px;
+    text-align: center; /* Centers text within the main content */
 }
 
-form label {
+main img {
     display: block;
-    margin-top: 10px;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
 }
-
-form input, form select {
-    margin-bottom: 10px;
-    padding: 5px;
-    width: 100%;
-}
-
-footer {
-    margin-top: 20px;
-}
-
-
-img {
-    max-width: 80%; 
-    height: auto; 
-}
-
-.main-image {
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px 0;
-    width: 400px; 
-    max-width: 100%; 
-    height: auto; 
-}
-.about-image {
-    width: 100%; 
-    max-width: 800px; 
-    height: auto; 
-    margin-top: 20px; 
-}
-}
-.products-image {
-    width: 100%; 
-    max-width: 800px; 
-    height: auto; 
-    margin-top: 20px; 
-}
-main {
-    max-width: 900px; 
-    margin: 0 auto; 
-    padding: 20px;
-    text-align: left; 
-}
-
-.about-image {
-    max-width: 100%; 
-    height: auto; 
-    border-radius: 10px; 
-    margin-top: 20px; 
-}
-
 
 footer {
     margin-top: 20px;
     padding: 20px;
     background-color: #4CAF50;
     color: white;
-    text-align: center; 
+    text-align: center;
 }
 
 footer .social-media {
     margin-top: 10px;
-    text-align: center; 
+    text-align: center;
 }
 
 .social-media a {
@@ -111,13 +64,12 @@ footer .social-media {
 }
 
 .social-icon {
-    width: 30px; 
+    width: 30px;
     height: auto;
-    filter: brightness(0) invert(1); 
+    filter: brightness(0) invert(1);
     transition: transform 0.2s;
 }
 
 .social-icon:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
-
