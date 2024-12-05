@@ -63,3 +63,32 @@ img {
     max-width: 100%; /* Ensures it doesn't overflow on small screens */
     height: auto; /* Maintains aspect ratio */
 }
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+footer .social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 30px; /* Adjust the size of the icons */
+    height: auto;
+    filter: brightness(0) invert(1); /* Ensures icons appear white */
+    transition: transform 0.2s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Slightly enlarges on hover */
+}
