@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center; /* Applies default centering for the body */
+    text-align: center; 
 }
 
 header, footer {
@@ -34,7 +34,7 @@ main {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    text-align: center; /* Centers text within the main content */
+    text-align: center; 
 }
 
 main img {
