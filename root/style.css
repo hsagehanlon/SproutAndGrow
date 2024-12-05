@@ -69,11 +69,12 @@ footer {
     padding: 20px;
     background-color: #4CAF50;
     color: white;
-    text-align: center;
+    text-align: center; /* Centers the text in the footer */
 }
 
 footer .social-media {
     margin-top: 10px;
+    text-align: center; /* Ensures the icons are also centered */
 }
 
 .social-media a {
@@ -92,3 +93,4 @@ footer .social-media {
 .social-icon:hover {
     transform: scale(1.1); /* Slightly enlarges on hover */
 }
+
