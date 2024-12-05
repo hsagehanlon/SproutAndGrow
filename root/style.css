@@ -51,17 +51,17 @@ footer {
 
 /* Image Styling */
 img {
-    max-width: 80%; /* Ensures the image scales down if it's too large */
-    height: auto;   /* Maintains the aspect ratio */
+    max-width: 80%; 
+    height: auto; 
 }
 
 .main-image {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
-    width: 400px; /* Sets a fixed width */
-    max-width: 100%; /* Ensures it doesn't overflow on small screens */
-    height: auto; /* Maintains aspect ratio */
+    width: 400px; 
+    max-width: 100%; 
+    height: auto; 
 }
 
 footer {
@@ -69,12 +69,12 @@ footer {
     padding: 20px;
     background-color: #4CAF50;
     color: white;
-    text-align: center; /* Centers the text in the footer */
+    text-align: center; 
 }
 
 footer .social-media {
     margin-top: 10px;
-    text-align: center; /* Ensures the icons are also centered */
+    text-align: center; 
 }
 
 .social-media a {
@@ -84,13 +84,13 @@ footer .social-media {
 }
 
 .social-icon {
-    width: 30px; /* Adjust the size of the icons */
+    width: 30px; 
     height: auto;
-    filter: brightness(0) invert(1); /* Ensures icons appear white */
+    filter: brightness(0) invert(1); 
     transition: transform 0.2s;
 }
 
 .social-icon:hover {
-    transform: scale(1.1); /* Slightly enlarges on hover */
+    transform: scale(1.1); 
 }
 
